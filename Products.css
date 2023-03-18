@@ -1,0 +1,57 @@
+/* <!-- ..........Products Bannner Css Start............ --> */
+.banner_container{
+    position: relative;
+    z-index: -1;
+}
+
+.ProductBanner_heading{
+position: absolute;
+top: 5%;
+text-align: center;
+}
+
+.ProductBanner_heading h1{
+color: white;
+font-weight: 700;
+text-shadow: 0em 0em 0.4em black;
+}
+
+.ProductBanner_heading h6{
+color: aliceblue;
+text-shadow: 0em 0em 0.4em white;
+}
+/* <!-- ..........Products Bannner Css End............ --> */
+
+
+/* <!-- .........Letest Product section css Start.......... --> */
+
+.ProductsTitle{
+    min-width: 100px;
+    margin: 5%;
+}
+
+.ProductsTitle h1{
+    padding: 1%;
+    color: rgba(31, 5, 117, 0.954);
+    display: inline;
+    text-shadow: 0.2em 0em 0.5em blue;
+    box-shadow: 0em 0.2em 0.5em rgba(0, 0, 255, 0.377);
+    
+}
+.ProductsTitle p{
+    color: black;
+    word-spacing: 0.4em;
+    font-size: 1.2em;
+    font-weight: 500;
+}
+
+.cart-shadow{
+    box-shadow:0.1em  0em  0.5em gray;
+
+   
+} 
+.productsgap{
+    padding-left: 0px;
+    padding-right: 0px;
+    }
+/* <!-- .........Letest Product section css End.......... --> */

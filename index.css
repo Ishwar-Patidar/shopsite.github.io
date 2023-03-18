@@ -1,0 +1,188 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgba(227, 227, 245, 0.411);
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+
+/* navbar css */
+#navbar_logo{
+    height: 3rem;
+    border-radius: 0.2rem;
+}
+
+.navbar_menu ul li a{
+font-weight: 700;
+}
+
+/* ...........Banner Css Start.......... */
+
+.LeftContainer {
+    position: relative;
+    z-index: -1;
+}
+
+
+#BannerLeftImg {
+    width: 100%;
+
+}
+
+.bannerBody{
+     position: absolute;  
+    top: 20%;
+    left: 20%; 
+    right: 20%;
+}
+
+
+.BannerLeftImgTitle {
+  
+    font-size: 2rem;
+    color: white;
+    font-weight: 400;
+}
+
+.bannerDiscrption{
+color: white;
+}
+
+.BannerRightContainer{
+    position: relative;
+    z-index: -1;
+
+}
+
+.imgbody{
+    position: absolute;  
+    top: 20%;
+    left: 20%; 
+    right: 20%;
+    text-align: center;
+}
+
+img{
+    width: 100%;
+}
+
+img:hover{
+    
+}
+
+.BannerRightContainer{
+background-color: rgba(173, 173, 232, 0.176);
+}
+
+.bannercard-title{
+    color: white;
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.description{
+color: white;
+}
+
+.bannerBody button{
+    background-color: aliceblue;
+}
+
+.bannerBody button:hover{
+    background-color: rgb(25, 136, 234);
+    color: aliceblue;
+}
+
+
+/* ...........Banner Css End.......... */
+
+/* .....Men's Item Section  css Start...... */
+
+#MensWearSection{
+margin-top: 20px ;
+}
+
+
+.mensHeading
+{
+    font-weight: 500;
+    color: gray;
+    text-shadow: 0.2em 0.2em 0.5em red;
+   
+}
+
+.mensHeading:hover
+{
+  font-weight: 500;
+  transform: rotate(360deg);
+  transform-origin: left;
+  transition: 2s;
+}
+/* .....Men's Item Section  css END...... */
+
+
+.card{
+    width: 11rem;
+}
+
+.productsgap
+{
+display: flex;
+justify-content: center;
+}
+
+
+
+.content-center{
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+/* ..........FOOTER SECTION CSS START........... */
+#FooterSection div{
+    background-color: black ;
+}
+
+
+/* ul{
+text-decoration: none;
+} */
+
+.textdesign h3{
+color: white;
+padding-top: 2rem;
+}
+
+.footerList{
+    text-decoration: none;
+    color: white;
+}
+
+.footerList li a{
+    text-decoration: none;
+    color: white;
+    line-height: 2rem;
+}
+
+.footerList li a:hover{
+    transform: scale(1.3);
+    color: Red;
+    background-color: white;
+    border-radius: 20%;
+    padding: 0.4rem 0.6rem;
+    font-weight: 500;
+    
+
+}
+
+.icon{
+    background-color: white;
+    color: white;
+}
+/* ..........FOOTER SECTION CSS END........... */
